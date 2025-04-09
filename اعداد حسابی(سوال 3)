@@ -1,0 +1,11 @@
+{int a1,a2,a3,s1,s2;
+a1=int.parse(Console.ReadLine());
+a2=int.parse(Console.ReadLine());
+a3=int.parse(Console.ReadLine());
+s1=int.parse(Console.ReadLine());
+s2=int.parse(Console.ReadLine());
+if(s1==s2)
+Console.WriteLine("yes");
+else
+Console.WriteLine("no");
+Console.ReadLine():}
