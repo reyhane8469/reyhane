@@ -1,0 +1,15 @@
+[double a,b,s=0;
+char r;
+a=int.parse(Console.ReadLine());
+r= Console.ReadKey().Keychar;
+b=int.parse(Console.ReadLine());
+if(r=='*')
+s=a*b;
+else if (r=='/')
+s=a/b;
+else if(r=='+')
+s=a+b;
+else if(r=='-')
+s=a-b;
+Console.WriteLine("s="+s);
+Console.RwadLine();}
